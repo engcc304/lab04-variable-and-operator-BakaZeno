@@ -43,7 +43,7 @@ int main() {
     scanf("%f",&salaryperhours);
 
     salary = salaryperhours * hours;
-
+    printf("Expected Output:\n");
     printf("Employees ID = %s\n",EmployeeID);
     printf("Salary = U$ %0.2f\n",salary);
 
