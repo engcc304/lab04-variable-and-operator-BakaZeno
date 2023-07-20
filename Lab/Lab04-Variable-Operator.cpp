@@ -34,14 +34,14 @@ int main() {
     int hours,salaryperhours;
     float salary;
 
-    printf("Input the Employees ID: ");
+    printf("Input the Employees ID:");
     scanf("%s",EmployeeID);
-    printf("Input the working hrs: ");
+    printf("Input the working hrs:");
     scanf("%d", &hours);
-    printf("Salary amount/hr: ");
+    printf("Salary amount/hr:");
     scanf("%d",&salaryperhours);
 
-    salary = salaryperhours * hours ;
+    salary = salaryperhours * hours;
 
     printf("Employees ID = %s\n",EmployeeID);
     printf("Salary = U$ %.2f",salary);
