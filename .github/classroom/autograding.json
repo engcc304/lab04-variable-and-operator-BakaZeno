@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Test simple ID",
+      "setup": "g++ -o a.out ./Lab/Lab04-Variable-Operator.cpp",
+      "run": "./a.out",
+      "input": "0342\r\n8\r\n15000\r\n",
+      "output": "Expected Output:\r\nEmployees ID = 0342\r\nSalary = U$ 120000.00",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Test with max ID digits",
+      "setup": "g++ -o a.out ./Lab/Lab04-Variable-Operator.cpp",
+      "run": "./a.out",
+      "input": "0000500349\r\n11\r\n34000\r\n",
+      "output": "Expected Output:\r\nEmployees ID = 0000500349\r\nSalary = U$ 374000.00",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
