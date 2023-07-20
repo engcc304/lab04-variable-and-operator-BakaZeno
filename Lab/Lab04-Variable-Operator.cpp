@@ -47,4 +47,4 @@ int main() {
     printf("\nSalary = U$ %.2f", salary);
 
     return 0;
-}
+}//end main function
