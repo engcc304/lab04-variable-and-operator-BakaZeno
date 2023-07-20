@@ -30,21 +30,21 @@
 int main() {
 
     //--| YOUR CODE HERE
-    char EmployeeID[ 10 ] ;
-    int hours , salaryperhours ;
-    float salary ;
+    char EmployeeID[10];
+    int hours,salaryperhours;
+    float salary;
 
-    printf( "Input the Employees ID : " ) ;
-    scanf( "%s" , EmployeeID ) ;
-    printf( "Input the wroking hrs : " ) ;
-    scanf( "%d" , &hours) ;
-    printf( "Salary amount/hr : " ) ;
-    scanf("%d" , &salaryperhours ) ;
+    printf("Input the Employees ID: ");
+    scanf("%s",EmployeeID);
+    printf("Input the working hrs: ");
+    scanf("%d", &hours);
+    printf("Salary amount/hr: ");
+    scanf("%d",&salaryperhours);
 
     salary = salaryperhours * hours ;
 
-    printf( "Employees ID = %s\n" , EmployeeID ) ;
-    printf(" Salary = U$ %.2f" , salary ) ;
+    printf("Employees ID = %s\n",EmployeeID);
+    printf("Salary = U$ %.2f",salary);
 
     return 0;
 }//end main function
