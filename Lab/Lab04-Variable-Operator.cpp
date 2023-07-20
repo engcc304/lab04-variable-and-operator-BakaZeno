@@ -36,15 +36,15 @@ int main() {
 
     printf("Input the Employees ID:");
     scanf("%s",EmployeeID);
-    printf("Input the working hrs:");
+    printf("\nInput the working hrs:");
     scanf("%d", &hours);
-    printf("Salary amount/hr:");
+    printf("\nSalary amount/hr:");
     scanf("%d",&salaryperhours);
 
     salary = salaryperhours * hours;
 
-    printf("Employees ID = %s\n",EmployeeID);
-    printf("Salary = U$ %.2f",salary);
+    printf("\nEmployees ID = %s",EmployeeID);
+    printf("\nSalary = U$ %.2f",salary);
 
     return 0;
 }//end main function
